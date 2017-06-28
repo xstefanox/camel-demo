@@ -1,5 +1,3 @@
-package test;
-
 import org.apache.camel.Handler;
 
 public class MyAggregator {

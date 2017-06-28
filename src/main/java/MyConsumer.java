@@ -1,5 +1,3 @@
-package test;
-
 import org.apache.camel.Body;
 import org.apache.camel.Handler;
 import org.slf4j.Logger;

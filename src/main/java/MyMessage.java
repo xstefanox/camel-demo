@@ -1,5 +1,3 @@
-package test;
-
 public class MyMessage {
 
     private String id;

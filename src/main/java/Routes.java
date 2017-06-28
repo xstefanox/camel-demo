@@ -1,6 +1,3 @@
-package test;
-
-import com.google.inject.Inject;
 import com.google.inject.Singleton;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.JavaUuidGenerator;
@@ -14,13 +11,6 @@ public class Routes extends RouteBuilder {
     public static final String HEADER_JOB_ID = "JOB_ID";
     public static final String HEADER_COUNT = "COUNT";
 
-    @Inject
-    public Routes(
-            final EndpointUriFactory endpointUriFactory,
-            final Configuration configuration) {
-        this.endpointUriFactory = endpointUriFactory;
-        this.configuration = configuration;
-    }
 
     @Override
     public void configure() throws Exception {

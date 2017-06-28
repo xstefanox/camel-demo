@@ -1,5 +1,3 @@
-package test;
-
 import java.util.Random;
 import java.util.UUID;
 import org.apache.camel.Handler;

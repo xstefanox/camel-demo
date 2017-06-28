@@ -1,5 +1,3 @@
-package test;
-
 public class MyAggregatedMessage {
 
     private Integer count = 0;

@@ -1,5 +1,3 @@
-package test;
-
 public class MySplittedMessage {
 
     private String id;
