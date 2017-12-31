@@ -35,7 +35,7 @@ public class ResultsPrinter implements Closeable {
 
         out.write(String.valueOf(persons.length()));
         out.write(SEPARATOR);
-        out.write(body.size());
+        out.write(String.valueOf(body.size()));
         out.write(SEPARATOR);
         out.write(persons);
         out.newLine();
